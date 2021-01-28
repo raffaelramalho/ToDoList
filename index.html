@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <!-- Made by Rafael Ramalho
+    Special Thanks to Rodrigo Elias -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do! List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="camera.png" type="image/x-icon">
+</head>
+<body id="app">
+    <div class="theme-container" id="themes">
+        <button id="theme1" ></button>
+        <button id="theme2" ></button>
+        <button id="theme3" ></button>
+        <button id="theme4" ></button>
+        <button id="theme5" ></button>
+    </div>
+    <div class="main-container">
+        <h1>Things To-Do</h1>
+        <div><p>
+            Just write something and save so you wont forget to do it later!
+        </p></div>
+        <div class="input-container">
+            <input type="text" id="userInput">
+            <button id="save" onclick="listAdd()">Salvar</button>
+        </div>
+        <div class="list-container">
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
